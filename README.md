@@ -16,12 +16,16 @@ The goal of this project is to create a robotic assistance system where a Jaco r
 ### Installation
 
 To set up the necessary environment for running the project, install the required Python libraries using the following command:
+```bash
 pip install gym==0.10.9 tensorflow==0.15 numpy==1.15.2 scipy==1.5
+```
 
 ### Usage
 
 Run the MAIN.py script to initiate the training process. The script accepts several parameters that influence the training dynamics. Edit the following line in MAIN.py to customize the training:
+```bash
 main(env_name='Jaco-v1', num_episodes=50000, gamma=0.99, lam=0.95, epsilon=0.2, mult_neuronas=20, batch_size=20, log_name='/Jaco/m1', policy_std=0)
+```
 
 ### Parameters Description (with default values)
 
