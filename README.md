@@ -1,6 +1,6 @@
 # Adaptive Jaco Robotic Arm: A PPO and Hybrid Algorithm Approach
 
-Welcome to the repository of the Adaptive Jaco Robotic Arm project. This initiative leverages the Proximal Policy Optimization (PPO) and a novel Hybrid algorithm to train a Jaco robotic arm to assist individuals with disabilities. The hybrid algorithm is a fusion of PPO and evolutionary algorithms, designed to enhance the learning and adaptability of the robotic arm.
+Welcome to the repository of the Adaptive Jaco Robotic Arm project. This initiative leverages the Proximal Policy Optimization (PPO) and a novel Hybrid algorithm to train a Jaco robotic arm to assist individuals with disabilities. The hybrid algorithm is a fusion of PPO and genetic algorithm, designed to enhance the learning and adaptability of the robotic arm.
 
 ## Project Overview
 
@@ -13,19 +13,19 @@ The goal of this project is to create a robotic assistance system where a Jaco r
 - **Gym**: Utilized for creating the simulation environment for the Jaco robotic arm.
 - **NumPy & SciPy**: Employed for numerical computations and scientific computing, respectively.
 
-## Installation
+#### Installation
 
 To set up the necessary environment for running the project, install the required Python libraries using the following command:
 
 ```bash
 pip install gym==0.10.9 tensorflow==0.15 numpy==1.15.2 scipy==1.5
 
-## Usage
+##### Usage
 
 Run the MAIN.py script to initiate the training process. The script accepts several parameters that influence the training dynamics. Edit the following line in MAIN.py to customize the training:
 main(env_name='Jaco-v1', num_episodes=50000, gamma=0.99, lam=0.95, epsilon=0.2, mult_neuronas=20, batch_size=20, log_name='/Jaco/m1', policy_std=0)
 
-### Parameters Description (with default values)
+###### Parameters Description (with default values)
 
 ```bash
 - env_name ('Jaco-v1'): Specifies the simulation environment for the Jaco robotic arm.
