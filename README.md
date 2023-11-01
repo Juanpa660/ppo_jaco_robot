@@ -6,6 +6,8 @@ Welcome to the repository of the Adaptive Jaco Robotic Arm project. This initiat
 
 The goal of this project is to create a robotic assistance system where a Jaco robotic arm can autonomously grab a bottle of water and pour it into a simulated face, effectively simulating the act of assisting disabled individuals in drinking water. The project stands as a testament to the advancements in robotic assistance and the potential for robotics to aid in personal care.
 
+![Jaco Arm created environment](imgs/jaco1.png)
+
 ### Technologies Used
 
 - **Python**: The primary programming language used for developing the scripts.
