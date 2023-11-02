@@ -45,4 +45,5 @@ main(env_name='Jaco-v1', num_episodes=50000, gamma=0.99, lam=0.95, epsilon=0.2, 
 ### Results
 
 Below, you'll find a video that highlights the outcomes of training and the performance of the PPO algorithm implemented on the Jaco arm throughout multiple episodes. Click on the image to watch the video and witness whether the arm successfully achieves its goal.
+
 [![Jaco Arm training](imgs/jaco_video.png)](https://youtu.be/7blBuv2F8VQ)
