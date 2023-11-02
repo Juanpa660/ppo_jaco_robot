@@ -7,6 +7,7 @@ Welcome to the repository of the Adaptive Jaco Robotic Arm project. This initiat
 The goal of this project is to create a robotic assistance system where a Jaco robotic arm can autonomously grab a bottle of water and pour it into a simulated face, effectively simulating the act of assisting disabled individuals in drinking water. The project stands as a testament to the advancements in robotic assistance and the potential for robotics to aid in personal care.
 
 ![Jaco Arm created environment](imgs/jaco1.png)
+In this visual representation, you can see the simulated environment. It features the Jaco robotic arm delicately gripping a glass of water, symbolized by the small blue sphere. The primary objective within this simulation is to execute a precise pouring maneuver, with the challenge of avoiding any spills, as the aim to satisfy the thirst of our character, affectionately named Rolly, by directing the liquid into his awaiting mouth.
 
 ### Technologies Used
 
@@ -40,3 +41,8 @@ main(env_name='Jaco-v1', num_episodes=50000, gamma=0.99, lam=0.95, epsilon=0.2, 
 - batch_size (20): The number of samples in each batch during the training process, influencing the gradient descent optimization.
 - log_name ('/Jaco/m1'): The directory path where the training logs will be stored.
 - policy_std (0): The standard deviation of the policy, affecting the exploration strategy of the agent.
+
+### Results
+
+[Watch the Video](https://www.youtube.com/watch?v=your_video_id)
+In this video blablabla...
