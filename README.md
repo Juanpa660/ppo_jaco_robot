@@ -44,5 +44,5 @@ main(env_name='Jaco-v1', num_episodes=50000, gamma=0.99, lam=0.95, epsilon=0.2, 
 
 ### Results
 
-[Watch the Video](https://www.youtube.com/watch?v=your_video_id)
+[![Jaco Arm training](imgs/jaco_video.png)](https://youtu.be/7blBuv2F8VQ)
 In this video blablabla...
